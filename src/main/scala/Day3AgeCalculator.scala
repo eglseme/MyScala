@@ -13,5 +13,5 @@ object Day3AgeCalculator extends App {
   println (s"Nice to meet you, $personName! Great to have $personAge year old person here!")
   val howMuch = year - personAge.toInt
   val oldEnough = howMuch + 100
-  println(s"$personName, at $oldEnough you will be 100 years old!")
+  println(s"$personName, at $oldEnough year you will be 100 years old!")
 }
